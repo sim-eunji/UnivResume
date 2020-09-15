@@ -5,11 +5,12 @@
       
         <!-- Cover -->
         <div class="card-image">
+          <img v-if="imageUrl" :src="imageUrl" />
         </div>
 
         <!-- Content -->
         <div class="card-content">
-          <h4>광운대학교</h4>
+          <h4> {{ title }} </h4>
           <slot name="content"> </slot>
         </div>
 </div>
@@ -24,7 +25,7 @@ export default {
       type: String, 
       default: ''
     },
-
+    title: String
   }
 
 }
@@ -40,6 +41,7 @@ export default {
     flex-direction: column;
     border: 1px solid #dee2e6;
     border-radius: 5px;
+    cursor: pointer;
 
     .card-image {
       height: 150px;
@@ -47,6 +49,18 @@ export default {
       background-color: gray;
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
+
+      img {
+        height: 150px;
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+    }
+
+    .card-image:hover {
+      background: black;
+      opacity: 0.8;
     }
 
     .card-content {

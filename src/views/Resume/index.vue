@@ -11,12 +11,12 @@
       </div>
 
       <div style="display: flex;">
-        <UICard>
+        <UICard title="건국대학교" imageUrl="https://lh3.googleusercontent.com/proxy/KX_yROwwi_KynIBeVOPWGr__mlKxYtT2zobv_LIcCmBUVvm_VJFMU9l_tcrmmKrVfM4hiwmWP-YPov6VSmcFO0wue92AzY5m2SFy1BqQSuicbZaCoQWZJ9lpDPXuyGqBN1O1Exw9QuG4UoEcbFsEbA">
           <template v-slot:content>
             <p style="margin:0; font-size:14px;">안녕하세요 이게 잘 나올까요? </p>
           </template>
         </UICard>
-        <UICard />
+        <UICard title="음~" />
       </div>
 
     </div>    
