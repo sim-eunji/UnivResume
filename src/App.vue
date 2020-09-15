@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    안녕
+    <router-view />
   </div>
 </template>
 
@@ -13,6 +13,6 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 
 </style>
