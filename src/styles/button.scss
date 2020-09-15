@@ -31,14 +31,13 @@ body {
       margin: 0;
       padding: 4px 1rem;
       background-color: #fff;
-      border-radius: 4px;
       line-height: 1.25rem;
       height: 2rem;
       font-weight: 500;
-      font-size: .75rem;
+      font-size: .85rem;
       color: $color-dark-gray;
       transition: background-color 0s;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+      // box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
 
       &:hover {
         background-color: $color-white-hover;

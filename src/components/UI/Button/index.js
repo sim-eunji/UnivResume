@@ -56,7 +56,7 @@ const Button = {
 
   render(h, { data, props, scopedSlots, listeners })  {
     let element = 'button'
-    let className = 'ui button'
+    let className = 'dn ui button'
     const attrs = {}
     const children = []
     let file = null
