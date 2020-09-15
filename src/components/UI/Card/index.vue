@@ -1,6 +1,5 @@
 <template>
   <div class="card-container">
-
     <div class="wrapper">
       
         <!-- Cover -->
@@ -18,8 +17,9 @@
 </template>
 
 <script>
+
 export default {
-  name: 'UICard',
+  name: 'Card',
   props: {
     imageUrl: {
       type: String, 

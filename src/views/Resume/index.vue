@@ -19,6 +19,20 @@
         <UICard title="음~" />
       </div>
 
+      <div>
+        <UILabel>
+          <template v-slot:content>
+            D-<strong>7</strong>
+          </template>
+        </UILabel>
+
+        <UILabel>
+          <template v-slot:content>
+            9월 <strong>24</strong>일부터
+          </template>
+        </UILabel>
+      </div>
+
     </div>    
   </div>
 </template>
@@ -27,10 +41,11 @@
 import ResumeQuestion from '@/components/Resume/ResumeQuestion.vue'
 import UIButton from '@/components/UI/Button';
 import UICard from '@/components/UI/Card';
+import UILabel from '@/components/UI/Label';
 
 export default {
   name: 'Resume',
-  components:  { ResumeQuestion, UIButton, UICard }
+  components:  { ResumeQuestion, UIButton, UICard, UILabel }
 
 }
 </script>
