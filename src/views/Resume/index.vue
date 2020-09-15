@@ -10,6 +10,15 @@
         <UIButton large primary> 임시저장 </UIButton>
       </div>
 
+      <div style="display: flex;">
+        <UICard>
+          <template v-slot:content>
+            <p style="margin:0; font-size:14px;">안녕하세요 이게 잘 나올까요? </p>
+          </template>
+        </UICard>
+        <UICard />
+      </div>
+
     </div>    
   </div>
 </template>
@@ -17,10 +26,11 @@
 <script>
 import ResumeQuestion from '@/components/Resume/ResumeQuestion.vue'
 import UIButton from '@/components/UI/Button';
+import UICard from '@/components/UI/Card';
 
 export default {
   name: 'Resume',
-  components:  { ResumeQuestion, UIButton }
+  components:  { ResumeQuestion, UIButton, UICard }
 
 }
 </script>
