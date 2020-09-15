@@ -4,6 +4,13 @@
       
         <!-- Cover -->
         <div class="card-image">
+
+          <UILabel v-if="label">
+            <template v-slot:content>
+              <span v-html="label"></span>
+            </template>
+          </UILabel>
+
           <img v-if="imageUrl" :src="imageUrl" />
         </div>
 
@@ -17,15 +24,18 @@
 </template>
 
 <script>
+import UILabel from '../Label';
 
 export default {
   name: 'Card',
+  components: { UILabel },
   props: {
     imageUrl: {
       type: String, 
       default: ''
     },
-    title: String
+    title: String,
+    label: String
   }
 
 }
@@ -44,6 +54,14 @@ export default {
     cursor: pointer;
 
     .card-image {
+      position: relative;
+
+      .label-container {
+        top: 10px;
+        left: 10px;
+        position: absolute;
+      }
+
       height: 150px;
       width: 100%;
       background-color: gray;

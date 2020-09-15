@@ -1,10 +1,8 @@
 <template>
-  <div>
-    <div class="label-container">
-      <!-- Content -->
-      <div class="content">
-        <slot name="content"> </slot>
-      </div>
+  <div class="label-container">
+    <!-- Content -->
+    <div class="content">
+      <slot name="content"> </slot>
     </div>
   </div>
 </template>
@@ -30,9 +28,6 @@ export default {
 
   .content {
     font-size: 12px;
-    strong {
-      color: #c92a2a;
-    }
   }
 }
 
