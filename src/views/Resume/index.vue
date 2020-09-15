@@ -2,6 +2,18 @@
   <div class="resume-container">
     <div class="template">
       <h1>🏫 건국대학교 <span class="subtitle">학생부종합전형</span> </h1>
+      <UILabel>
+        <template v-slot:content>
+          <a href="#" target="blank"> 입학처 🏢</a>
+        </template>
+      </UILabel>
+
+      <UILabel>
+        <template v-slot:content>
+          <a href="#"> 참고자료 📋 </a>
+        </template>
+      </UILabel>
+
       <ResumeQuestion />
       <ResumeQuestion />
       <ResumeQuestion />

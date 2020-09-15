@@ -19,12 +19,10 @@ export default {
   display: inline-flex;
   justify-content: center;
   border: 1px solid #ced4da;
-
   background-color: white;
-
   border-radius: 9999px;
-
   padding: 4px 8px;
+  margin-right: 5px;
 
   .content {
     font-size: 12px;

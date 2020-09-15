@@ -21,6 +21,10 @@ html, body {
         font-size: 14px !important;
     }
 
+    textarea {
+      font-family: 'Noto Sans KR' !important;
+    }
+
     strong, .bold { 
         font-weight: 700; 
     }
@@ -48,4 +52,14 @@ html, body {
       margin: 0;
       padding: 0;
     }
+
+    a {
+      text-decoration: none;
+      color: black;
+
+      &:hover {
+        color: $color-g-blue;
+      }
+    }
+
 }

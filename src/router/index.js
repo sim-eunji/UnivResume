@@ -10,10 +10,15 @@ const routes = [
     component: Layout,
     children: [
       {
-        path: '/',
+        path: '/resume',
         name: 'Resume',
         component: () => import('@/views/Resume')
-      }
+      },
+      {
+        path: '/',
+        name: 'Main',
+        component: () => import('@/views/Main')
+      },
     ]
   }
 
