@@ -1,6 +1,5 @@
 import { generateUniqueId } from '../../../utils/index';
 
-
 class TextboxProps {
   static toSheme() {
     const props = {
@@ -23,12 +22,12 @@ class TextboxProps {
       error: Boolean,
       success: Boolean,
       rows: {
-        type: Number,
-        default: 5
+        type: String,
+        default: '5'
       },
       cols: {
-        type: Number,
-        default: 50
+        type: String,
+        default: '50'
       }
     }
 

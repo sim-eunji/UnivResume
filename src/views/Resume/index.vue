@@ -8,14 +8,17 @@
 
       <ResumeQuestion />
     </div>
+    <UIButton> 버튼 임 </UIButton>
   </div>
 </template>
 
 <script>
 import ResumeQuestion from '@/components/Resume/ResumeQuestion.vue'
+import UIButton from '@/components/UI/Button';
+
 export default {
   name: 'Resume',
-  components:  { ResumeQuestion }
+  components:  { ResumeQuestion, UIButton }
 
 }
 </script>
@@ -27,11 +30,13 @@ export default {
   justify-content: center;
 
   .template {
-    background: #f8f9fa;
-    margin-top: 50px;
+    background: white;
+    margin-top: 80px;
+    margin-bottom: 80px;
     width: 800px;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 2rem;
+    border: 1px solid #dee2e6;
 
     h1 .subtitle {
       font-size: 25px;

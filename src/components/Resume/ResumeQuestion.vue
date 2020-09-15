@@ -5,7 +5,7 @@
     </div>
 
     <div class="answer">
-      <Textbox rows="13" cols="80" />
+      <Textbox rows="10" cols="86" />
     </div>
   </div>
 </template>

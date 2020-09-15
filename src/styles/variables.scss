@@ -1,0 +1,21 @@
+:root {
+  --landing-primary: #6097ff;
+  --landing-secondary: #389bfb;
+  --landing-gray: #6d6d79;
+  --landing-max-width: 1440px;
+  --landing-min-width: 1200px;
+  --landing-breakpoint-md: 768px;
+  --landing-breakpoint-xl: 1200px;
+  --landing-min-width: 1200px;
+}
+
+@mixin applyMaxWidth() {
+  margin: 0 auto;
+  max-width: var(--landing-max-width);
+}
+
+@mixin applyDeviceWidth() {
+  min-width: 100vw;
+  max-width: 100vw;
+  box-sizing: border-box;
+}
