@@ -59,8 +59,9 @@ export default {
 .main-container {
 
   .banner-wrapper {
+    margin-top: 30px;
     background-color: #ffec99;
-    height: 400px;
+    height: 360px;
     width: 100%;;
 
     display: flex;

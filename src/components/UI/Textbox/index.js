@@ -25,10 +25,7 @@ class TextboxProps {
         type: String,
         default: '5'
       },
-      cols: {
-        type: String,
-        default: '50'
-      }
+      cols: String
     }
 
     return props
