@@ -45,6 +45,7 @@ export default {
 .card-container {
   width: 30%;
   margin-right: 10px;
+  margin-bottom: 15px;
 
   .wrapper {
     display: flex;
