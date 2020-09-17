@@ -4,6 +4,7 @@
 @import "./theme.scss";
 @import "./textbox.scss";
 @import "./button.scss";
+@import "./input.scss";
 
 html, body {
     margin: 0;
@@ -58,7 +59,7 @@ html, body {
       color: black;
 
       &:hover {
-        color: $color-g-blue;
+        color: #ff4949;
       }
     }
 

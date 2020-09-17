@@ -3,18 +3,17 @@
     <div class="signup-form">
       <div class="logo-wrapper">
         <h2>대학가즈아</h2>
-        이메일로 간편 회원가입
+        이메일로 간편 로그인
       </div>
 
       <div class="form-wrapper">
         <Input type="email" label="이메일(아이디)" />
         <Input type="password" label="비밀번호" />
-        <Input type="password" label="비밀번호 재확인" />
         
         <div class="button-wrapper">
-          <a href="#">회원가입</a>
+          <a href="#">로그인</a>
         </div>
-        <p> 이미 계정이 있으면 <a href="/login"> 로그인 </a> </p>
+        <p> 계정이 없으면 간단 <a href="/signup"> 회원가입 </a> </p>
       </div>
 
     </div>
@@ -24,7 +23,7 @@
 <script>
 import Input from '@/components/UI/Input'
 export default {
-  name: 'Signup',
+  name: 'Login',
   components: { Input }
 
 
@@ -44,7 +43,7 @@ export default {
     width: 450px;
     border: 1px solid #dee2e6;
     border-radius: 5px;
-    height: 500px;
+    height: 400px;
     text-align: center;
     
 

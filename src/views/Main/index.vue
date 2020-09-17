@@ -34,12 +34,14 @@ export default {
   },
 
   async created() {
+    console.log('??')
     this.getList()
   },
 
   methods: {
     async getList() {
       const response = await university.list()
+      console.log(response)
       this.universityList = response.data
     }
   }
